@@ -13,8 +13,7 @@ This project implements a virtual memory system using hierarchical page tables. 
 To use the virtual memory system, follow these steps:
 
 1. Include the VirtualMemory.h header file in your project.
-2. Implement the required map and reduce functions in your code, as they will be used for page eviction strategies.
-3. Initialize the virtual memory system by calling `VMinitialize()`.
+2. Initialize the virtual memory system by calling `VMinitialize()`.
 
 ### Reading from Virtual Memory
 To read a value from the virtual memory, use the `VMread(virtualAddress, value)` function. Provide the virtual address you want to read from and a reference to store the retrieved value. The function returns 1 on success and 0 if the virtual address is out of bounds.
